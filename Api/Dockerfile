@@ -5,6 +5,8 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
+COPY ["Domain/Domain.csproj", "Domain/"]
+COPY ["Application/Application.csproj", "Application/"]
 COPY ["DataAPI/DataAPI.csproj", "DataAPI/"]
 RUN dotnet restore "DataAPI/DataAPI.csproj"
 COPY . .
