@@ -1,7 +1,10 @@
-﻿namespace Domain.ExamStress.Entities;
+﻿using Domain.ExamStress.Entities.Measurements;
 
-public class Student
+namespace Domain.ExamStress.Entities;
+
+public class Student //TODO mark as aggregate root
 {
+    public string Id { get; set; }
     public TemperatureMeasurement TemperatureMeassurement { get; set; }
     public ElectrodermalActivityMeasurement ElectrodermalActivityMeasurement { get; set; }
     public PhotoplethysmographMeasurement PhotoplethysmographMeasurement { get; set; }

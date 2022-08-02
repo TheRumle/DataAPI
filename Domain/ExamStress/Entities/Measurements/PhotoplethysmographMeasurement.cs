@@ -1,4 +1,4 @@
-﻿namespace Domain.ExamStress.Entities;
+﻿namespace Domain.ExamStress.Entities.Measurements;
 
 //TODO what is the measurement unit?
 

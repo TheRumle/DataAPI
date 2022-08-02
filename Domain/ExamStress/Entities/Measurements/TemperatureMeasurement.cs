@@ -1,4 +1,4 @@
-﻿namespace Domain.ExamStress.Entities;
+﻿namespace Domain.ExamStress.Entities.Measurements;
 
 public class TemperatureMeasurement : Measurement
 {

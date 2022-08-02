@@ -1,4 +1,4 @@
-﻿namespace Domain.ExamStress.Entities;
+﻿namespace Domain.ExamStress.Entities.Measurements;
 //TODO Should it represented with a triple of doubles or three collections?
 
 public class AccelerometerMeasurement : Measurement
