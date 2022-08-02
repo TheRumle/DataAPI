@@ -6,4 +6,10 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="ExamStress\Exceptions" />
+      <Folder Include="ExamStress\DataAccess" />
+      <Folder Include="ExamStress\Services" />
+    </ItemGroup>
+
 </Project>
